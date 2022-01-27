@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+}
+/* Navigation Bar starts here */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    width: 100%;
+    height: 5rem;
+}
+.navigation-left{
+    margin: 0 9rem;
+}
+.navigation-right{
+    margin: 0 4rem;
+    padding: 3rem;
+}
+.navigation h3{
+    color: #335576;
+}
+.navigation a{
+    text-decoration:none;
+}
+.navigation-unordered-list{
+    display: inline-block;
+    list-style-type: none;
+}
+.navigation-unordered-list li{
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    padding: 0 0.8rem;
+}
+
+.navigation-unordered-list__main{
+    border-bottom: rgb(206, 107, 87) .2rem solid;
+}
+
+/* Navigation Bar ends here */
