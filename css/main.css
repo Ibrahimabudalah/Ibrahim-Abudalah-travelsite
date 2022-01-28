@@ -52,34 +52,48 @@
     justify-content: space-around;
     margin: 3rem 12rem;
 }
+/* .main-recomendations-section__cards{ */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0,0.2); */
+    /* border-radius: 5px; */
+    /* margin: 1.2rem; */
+    /* overflow::auto; */
+    /* width: 15.7rem; */
+/* } */
 .main-recomendations-section__cards{
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgb(0, 0, 0);
-    border-radius: 5px;
-    margin: 1.2rem;
-    overflow: hidden;
-    width: 15.7rem;
+    position:relative;
 }
 .main-recomendations-section__cards:hover{
     opacity: 20%;
 }
+.main-recomendations-section__cards p{
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    bottom: 1rem;
+    right: 1rem;
+    position: absolute;
+    z-index: 1;
+}
 .main-recomendations__hawaii img{
     height: 24rem;
     width: 15.9rem;
-    /* /* box-shadow: 0 .313rem 1.563rem -0.063rem rgba(0, 0, 0, 0.20); */
-    border-radius: 5px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
 }
 .main-recomendations__iceland img{
     height: 24rem;
     width: 16.1rem;
-    /* /* box-shadow: 0 .313rem 1.563rem -0.063rem rgba(0, 0, 0, 0.20); */
-    border-radius: 5px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
 }
 .main-recomendations__greece img{
     height: 24rem;
     width: 16.1rem;
-    /* /* box-shadow: 0 .313rem 1.563rem -0.063rem rgba(0, 0, 0, 0.20); */
-    border-radius: 5px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
 }
-
 /* Recommendations Section Ends Here */
