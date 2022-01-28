@@ -15,14 +15,15 @@
     position: fixed;
 }
 .navigation-left{
-    margin: 0 7rem;
+    margin: 0 5.9rem;
 }
 .navigation-right{
     /* margin-top: .8rem; */
-    margin-right: 5.5rem;
+    margin-right: 4rem;
 }
 .navigation h3{
     color: #335576;
+    margin-left: -1.3rem;
 }
 .navigation a{
     text-decoration:none;
@@ -34,13 +35,15 @@
 .navigation-right li:hover{
     text-decoration: none;
     color: #DB7A4E;
+    border-bottom: #DB7A4E .2rem solid;
+    padding-bottom: .5rem;
 }
 .navigation-unordered-list li{
     display: inline-block;
     font-size: .9rem;
     font-weight: 200;
     color: #181717;
-    margin: 0 0.8rem;
+    margin: 0 0.6rem;
 }
 
 .navigation-unordered-list__main{
